@@ -21,7 +21,7 @@ class GreenhouseApp extends StatelessWidget {
       title: 'Greenhouse Monitor',
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: Colors.black, // Base background
-        cardTheme: const CardTheme(color: Colors.black26),
+        cardTheme: const CardThemeData(color: Colors.black26),
         textTheme: const TextTheme(
           bodyLarge: TextStyle(color: Colors.white),
           bodyMedium: TextStyle(color: Colors.white),
